@@ -63,6 +63,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Classs\FrameClass.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -102,8 +103,14 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Classs\" />
-    <Folder Include="Resourse\" />
+    <Resource Include="Resourse\12.jpg" />
+    <Resource Include="Resourse\14.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resourse\2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resourse\5.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

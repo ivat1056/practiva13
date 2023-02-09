@@ -1,4 +1,6 @@
-﻿using System;
+﻿using pr13.Classs;
+using pr13.Pages;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +25,9 @@ namespace pr13
         public MainWindow()
         {
             InitializeComponent();
+            FrameClass.MainFrame = frm;
+            FrameClass.MainFrame.Navigate(new Mainpage());
+            
         }
     }
 }

@@ -9,6 +9,28 @@
       Title="Mainpage">
 
     <Grid>
-        
+
+
+        <Border x:Name="advertisement" Width="600" Height="300" >
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2.5*"></ColumnDefinition>
+                <ColumnDefinition Width="1.5*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+                <Image x:Name="blue" Source="../Resourse/12.jpg"  Width="600" Grid.Column="0" />
+                <Image x:Name="green" Source="../Resourse/14.jpg" Width="600" Grid.Column="1" />
+                <Image x:Name="key" Source="../Resourse/2.png" Width="400"  Grid.Column="0" />
+                <TextBlock Name="text" Text="Ключ &#13; к вашему &#13; благополучию" HorizontalAlignment="Center" Margin="0,40,0,0" Grid.Column="1"  Foreground="#0121f0"/>
+                <Image x:Name="logo" Source="../Resourse/5.png"  Margin="0,170,0,0" Grid.Column="1" />
+                <Border  >
+                    <Button Name="btn1" Cursor="Hand" Margin="55,238,55,15"  Foreground="White" Content="Купить мечту"  Grid.Column="0" ></Button>
+                </Border>
+            </Grid>
+            
+        </Border>
+
+
+
+
     </Grid>
 </Page>
